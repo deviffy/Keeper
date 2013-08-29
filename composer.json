@@ -1,0 +1,24 @@
+{
+    "name": "turtlebits/keeper",
+    "description": "Asset Manager for Laravel 4",
+    "keywords": ["laravel","assets"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Catalin Dumitrescu",
+            "email": "catalin@turtlebits.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.*",
+        "illuminate/html": "4.*",
+        "leafo/lessphp": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "TurtleBits\\Keeper": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
