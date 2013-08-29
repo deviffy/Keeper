@@ -13,7 +13,13 @@ Add `"turtlebits/keeper": "dev-master"` to the `require` section of `composer.js
 
 Register the service provider by adding `'TurtleBits\Keeper\KeeperServiceProvider',` to the `providers` section of the `app/config/app.php` file
 
-If you use TwigBridge, add `'TurtleBits\Keeper\Extensions\KeeperTwigExtension'` to the `extensions` section of the `app/config/packages/rcrowe/twigbridge/config.php` file.
+If you use [TwigBridge](https://github.com/rcrowe/TwigBridge), add `'TurtleBits\Keeper\Extensions\KeeperTwigExtension'` to the `extensions` section of the `app/config/packages/rcrowe/twigbridge/config.php` file.
+
+
+Requirements
+-------------------
+
+This package uses [lessphp](https://github.com/leafo/lessphp) as a `less` compiler, and installs it automatically.
 
 
 Usage
@@ -40,3 +46,5 @@ TODO
 * Add js minification
 * Add css groups
 * Add js groups
+* Add basic image filters
+* Add basic image transforms
